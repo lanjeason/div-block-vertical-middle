@@ -8,9 +8,9 @@
 			margin-bottom:10px;
 		}
 		.wrap{
-			background:#000;
+			background:#f55;
 			width:500px;
-			color:#fff;
+			color:#000;
 			margin-bottom:10px;
 			height:100px;
 			display:table-cell;
@@ -20,7 +20,7 @@
 		.test{
 			width:200px;
 			height:50px;
-			background:#f00;
+			background:#000;
 		}
 		.verticalWrap{
 			*position:absolute;
@@ -30,13 +30,25 @@
 			*position:relative;
 			*top:-50%;
 		}
+		.center1{
+			text-align: center;
+		}
+		.center2{
+			width:120px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.center3{
+			margin-right: auto;
+			margin-left: auto;
+		}
 	</style>
 </head>
 <body>
 	<div class="mb10">
 	    <div class="wrap">
 	        <div class="verticalWrap">
-	            <div class="vertical">
+	            <div class="vertical center1">
 	                hello world
 	            </div>
 	        </div>
@@ -45,8 +57,8 @@
 
 	<div class="mb10">
 	    <div class="wrap">
-	        <div class="verticalWrap">
-	            <img src="" class="vertical" />
+	        <div class="verticalWrap center2">
+	            <img src="1.jpg" class="vertical" />
 	        </div>
 	    </div>
 	</div>
@@ -54,7 +66,7 @@
 	<div class="mb10">
 	    <div class="wrap">
 	        <div class="verticalWrap">
-	            <div class="test vertical"></div>
+	            <div class="test vertical center3"></div>
 	        </div>
 	    </div>
 	</div>
